@@ -39,6 +39,26 @@ body {
 
 main {
   margin-top: 7em;
+  text-align: center;
+}
+
+.bloco-lista {
+  display: inline-block;
+  text-align: center;
+}
+
+.lista {
+  text-align: center;
+}
+
+.lista h2 {
+  margin: 0;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.lista li {
+  list-style-position: inside;
 }
 
 footer {
