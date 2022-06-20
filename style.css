@@ -1,8 +1,29 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #296EB4;
+  width: 100%;
+  text-align: center;
+}
+
+#navegacao {
+  text-align: center;
+}
+
+.blocobotao {
+  margin: 0;
+  border: 0;
+  display: inline-block;
+  width: 33.1%;
+}
+
+main {
+  margin-top: 20em;
 }
