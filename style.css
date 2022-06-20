@@ -43,6 +43,11 @@ main {
   margin-bottom: 5em;
 }
 
+#primeira-parte {
+  background-color: rgb(253, 184, 51);
+  margin: 0 0.5em;
+}
+
 #aprendizado , aside {
   display: inline-block;
   width: 49%;
@@ -59,10 +64,12 @@ main {
 aside {
   text-align: center;
   vertical-align: middle;
+  border-left: 10px solid rgb(177, 116, 15);
 }
 
 #conteudo-aside {
   vertical-align: middle;
+  margin: 0 0.5em;
 }
 
 #conteudo-aside img , #conteudo-aside p {
