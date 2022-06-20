@@ -8,22 +8,92 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #296EB4;
+  background-color: rgb(41, 110, 180);
   width: 100%;
   text-align: center;
+}
+
+#titulo {
+  margin-bottom: 0;
 }
 
 #navegacao {
   text-align: center;
 }
 
-.blocobotao {
+.botao {
   margin: 0;
   border: 0;
   display: inline-block;
   width: 33.1%;
 }
 
+.botao-link {
+  display: inline-block;
+  vertical-align: auto;
+  width: 100%;
+  padding: 1em 0;
+  margin: 0;
+  border: 0;
+}
+
 main {
-  margin-top: 20em;
+  margin-top: 7em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(41, 110, 180);
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#links-redes {
+  vertical-align: middle;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.site a {
+  text-align: center;
+  display: inline-block;
+  width: 3em;
+  vertical-align: auto;
+}
+
+.site a:hover {
+  width: 4em;
+  height: 4em;
+}
+
+.site {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#site-linkedin {
+  margin-right: 1em;
+}
+
+#site-github {
+  margin-left: 1em;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#logo-linkedin {
+  width: 100%;
+  border-radius: 10%;
+  text-align: center;
+}
+
+#logo-github {
+  width: 100%;
+  border-radius: 10%;
 }
