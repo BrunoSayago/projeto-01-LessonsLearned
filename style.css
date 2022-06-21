@@ -144,6 +144,7 @@ footer {
   width: 100%;
   text-align: center;
   vertical-align: middle;
+  height: 12%;
 }
 
 #links-redes {
@@ -157,12 +158,32 @@ footer {
   display: inline-block;
   width: 3em;
   vertical-align: auto;
+  position: absolute;
 }
 
 .site a:hover {
   width: 4em;
   height: 4em;
 }
+
+#link-linkedin {
+  left: 45%;
+}
+
+#link-github {
+  right: 45%;
+}
+
+#link-linkedin:hover {
+  left: 44.33%;
+  bottom: 6%;
+}
+
+#link-github:hover {
+  right: 44.33%;
+  bottom: 6%;
+}
+
 
 .site {
   display: inline-block;
