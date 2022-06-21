@@ -174,3 +174,35 @@ footer {
   width: 100%;
   border-radius: 10%;
 }
+
+table , tr , th , td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+table {
+  background-color: rgb(12, 12, 12);
+  border: 1px solid black;
+}
+
+#primeira-linha {
+  background-color: rgb(253, 251, 251);
+}
+
+.impar {
+  background-color: rgb(253, 184, 51, 0.75);
+}
+
+.par {
+  background-color: rgba(23, 137, 252, 0.6);
+}
+
+tr , th , td {
+  padding: 0.5em;
+}
+
+#secao-tabela {
+  margin-bottom: 5.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
