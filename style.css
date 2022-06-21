@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   padding: 0;
@@ -50,14 +54,18 @@ body {
 }
 
 main {
-  margin-top: 6.78em;
+  position: fixed;
+  top: 7.4em;
+  overflow-y: scroll;
   text-align: center;
-  margin-bottom: 5em;
+  bottom: 0;
+  scroll-behavior: smooth;
 }
 
 #primeira-parte {
   background-color: rgb(253, 184, 51);
   font-size: 0.9em;
+  margin-bottom: 0.15em;
 }
 
 #aprendizado , aside {
@@ -92,6 +100,7 @@ aside {
 #conteudo-aside img {
   width: 20%;
   margin: 1em 0;
+  border-radius: 15px;
 }
 
 #conteudo-aside p {
@@ -100,17 +109,24 @@ aside {
 
 .bloco-lista {
   display: inline-block;
-  text-align: center;
+  width: 49%;
+  margin-top: 2em;
+  background-color: rgb(23, 137, 252);
+  border-radius: 10px;
+  border: 5px solid rgb(41, 110, 180);
 }
 
-.lista {
-  text-align: center;
+ol , ul {
+  padding: 0;
 }
 
 .lista h2 {
+  display: block;
+  width: 100%;
   margin: 0;
   font-size: 1.3em;
   margin-bottom: 0.4em;
+  text-align: center;
 }
 
 .lista li {
@@ -129,7 +145,7 @@ footer {
 
 #links-redes {
   vertical-align: middle;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
