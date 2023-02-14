@@ -19,7 +19,7 @@ O objetivo desse projeto foi desenvolver um site que exibisse informações sobr
 
 ## Instruções para visualização
 Comando para clonar o projeto:
- - `git@github.com:BrunoSayago/projeto-01-LessonsLearned.git`
+ - `git clone git@github.com:BrunoSayago/projeto-01-LessonsLearned.git`
  
 Se necessário, instalar as dependências:
  - `npm install`
