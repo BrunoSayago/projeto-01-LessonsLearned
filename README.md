@@ -16,6 +16,14 @@ Lessons Learned
 ## Objetivos do Projeto
 O objetivo desse projeto foi desenvolver um site que exibisse informações sobre os conteúdos aprendidos até aquele momento do curso. O site foi desenvolvido somente utilizando conceitos básicos de HTML e CSS, como desenvolvimento, posicionamento e customização de elementos.
 
+<br/>
+Abaixo está um GIF que apresenta a página desenvolvida.
+<br/>
+
+![Screenshot](screenshot1.gif)
+
+<br/>
+
 
 ## Instruções para visualização
 Comando para clonar o projeto:
